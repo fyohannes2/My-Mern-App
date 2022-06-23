@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 //mongoose
+mongoose.connect("mongodb+srv://admin:abc1234@cluster1.xcrkx.mongodb.net/?retryWrites=true&w=majority")
 
 
 //API routes
